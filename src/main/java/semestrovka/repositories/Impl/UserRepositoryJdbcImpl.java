@@ -14,7 +14,6 @@ public class UserRepositoryJdbcImpl implements UserRepository {
     private static final String SQL_SELECT_BY_AGE = "SELECT * FROM users WHERE age = ?";
     private static final String SQL_SELECT_BY_EMAIL_PASSWORD = "SELECT * FROM users WHERE email = ? AND password = ?";
     private final static String SQL_INSERT_USERCOOKIE = "INSERT INTO cookie_users (uuid, user_id) VALUES (?, ?)";
-    private final static String SQL_UPDATE = "UPDATE users SET first_name = ?, last_name = ?, age = ?, email = ?, password = ? WHERE id = ?";
     private final Connection connection;
     private final Statement statement;
 
