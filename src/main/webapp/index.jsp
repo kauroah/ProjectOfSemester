@@ -16,11 +16,10 @@
         <ul class="menu">
             <li><a href="" class="active">Home</a></li>
             <li><a href="">Sell</a></li>
-            <li><a href="">Accounts</a></li>
+            <li><a href="/UserServlet">Accounts</a></li>
             <li><a href=""><i class="fas fa-shopping-cart"></i></a></li>
             <li><a href="/signin">Login</a></li>
         </ul>
-
 
         <div class="menu-btn">
             <i class="fa fa-bars"></i>

@@ -1,11 +1,9 @@
 package semestrovka.models;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @Data
+@Getter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
@@ -18,5 +16,7 @@ public class User {
     private String email;
     private String password;
     private boolean isAdmin;
+
+
 }
 
