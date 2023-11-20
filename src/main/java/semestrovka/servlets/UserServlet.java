@@ -45,6 +45,6 @@ protected void doGet(HttpServletRequest request, HttpServletResponse response) t
 
     request.setAttribute("users", users);
     System.out.println(users);
-    request.getRequestDispatcher("userDisplay.jsp").forward(request, response);
-}
+    request.getRequestDispatcher("/userDisplay.jsp").forward(request, response);
+    }
 }
